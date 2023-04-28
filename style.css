@@ -171,3 +171,12 @@ hero img {
     border: 3px solid #E5E7EB;
     border-radius: 12px;
 }
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #F9FAF8;
+}
