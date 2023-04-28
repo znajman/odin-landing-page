@@ -13,7 +13,7 @@ header {
     justify-content: space-between;
     color: white;
     height: 100px;
-    padding: 0 50px;
+    padding: 0 100px;
 }
 
 .header-logo a {
@@ -41,4 +41,47 @@ header {
 
 .header-logo img {
     height: 100px;
+}
+
+hero {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding: 0 100px;
+    height: 400px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hero-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+hero .button {
+    background-color: #3882F6;
+    padding: 12px 28px;
+    align-self: flex-start;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 12px;
+}
+
+hero img {
+    height: 240px;
+    width: auto;
 }
