@@ -101,14 +101,14 @@ content {
 
 .image-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 20px;
 }
 
 .image {
-    width: 150px;
+    width: 210px;
     font-size: 18px;
     font-weight: lighter;
-    flex: 1;
 }
 
 .image img{
@@ -121,10 +121,10 @@ content {
 .quote-section {
     background-color: #E5E7EB;
     height: 400px;
-    padding: 0 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .quote {
@@ -132,11 +132,12 @@ content {
     font-style: italic;
     font-weight: 100;
     color: #1F2937;
+    max-width: 600px;
 }
 
 .quote-who {
-    text-align: right;
     font-weight: bold;
+    padding-left: 400px;
 }
 
 .sign-up-section {
