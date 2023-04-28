@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
     align-items: center;
     justify-content: space-between;
     color: white;
-    height: 100px;
+    min-height: 100px;
     padding: 0 100px;
 }
 
@@ -50,7 +51,7 @@ hero {
     justify-content: space-evenly;
     gap: 30px;
     padding: 0 100px;
-    height: 400px;
+    min-height: 400px;
 }
 
 .hero-left {
@@ -84,6 +85,10 @@ hero .button {
 hero img {
     height: 240px;
     width: auto;
+}
+
+content {
+    flex: 1;
 }
 
 .information-section {
@@ -177,6 +182,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    min-height:100px;
+    margin-top: auto;
     color: #F9FAF8;
 }
